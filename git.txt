@@ -18,10 +18,35 @@ repo -> 저장된 파일(untracked:git이 해당파일은 관리X) -> 관리명�
 > git init  (저장소 설정)
 > git status (상태 확인)
 
-> git add [untracked상태의 파일명]
+> 본인정보 사용 실행
+ > git config --global user.email "you@example.com" [엔터]
+ > git config --global user.name "Your Name" [엔터]
 
-> git add git.txt
+> git add [untracked상태의 파일명] [.]
+
+> git add git.txt 
 
 > git commit -m "첫번째 커밋"
+
+> git log
+
+> git log --oneline
+
+> git add itwill.txt
+
+> git checkout [커밋아이디] [파일명]
+
+
+> git checkout 0ae7df47
+
+>  git checkout 0ae7df47 itwill.txt
+
+
+
+> git remote add origin [깃허브 원격저장소 주소]
+> git push origin master
+
+
+
 
 
